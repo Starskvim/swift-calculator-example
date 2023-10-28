@@ -57,30 +57,47 @@
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="eqSignPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="ptu-uV-qcH"/>
+                                            <action selector="twoOpSignPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="h0B-gw-CEI"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pis-Fu-FuL">
                                         <rect key="frame" x="1" y="1" width="97" height="119.33333333333333"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="C"/>
+                                        <connections>
+                                            <action selector="clearButtonPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="98s-p3-9op"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQq-tj-tfS">
                                         <rect key="frame" x="99" y="1" width="97" height="119.33333333333333"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="+/-"/>
+                                        <connections>
+                                            <action selector="plusMinusPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="YSO-He-mwq"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DrT-Rk-mvG">
                                         <rect key="frame" x="197" y="1" width="97" height="119.33333333333333"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="%"/>
+                                        <connections>
+                                            <action selector="percentageButtonPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="OvI-Fy-Taf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cV5-wg-61j">
                                         <rect key="frame" x="295" y="1" width="97" height="119.33333333333333"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="eqSignPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Rbl-GN-8oT"/>
+                                            <action selector="twoOpSignPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Yfu-E0-YdL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YIv-a4-AcA">
                                         <rect key="frame" x="1" y="241.66666666666666" width="97" height="119.66666666666666"/>
@@ -114,6 +131,10 @@
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="×"/>
+                                        <connections>
+                                            <action selector="eqSignPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="5zX-0d-5sd"/>
+                                            <action selector="twoOpSignPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="LUH-70-j6F"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJN-MF-TMM">
                                         <rect key="frame" x="1" y="362.33333333333337" width="97" height="119.33333333333331"/>
@@ -147,12 +168,19 @@
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="÷"/>
+                                        <connections>
+                                            <action selector="eqSignPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="qbk-jk-hGS"/>
+                                            <action selector="twoOpSignPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="vbL-UT-2yf"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xA0-pe-1kI">
                                         <rect key="frame" x="1" y="482.66666666666657" width="97" height="119.33333333333331"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="√"/>
+                                        <connections>
+                                            <action selector="squareButtonPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="owv-ya-TvJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2v-2g-bSo">
                                         <rect key="frame" x="99" y="482.66666666666657" width="97" height="119.33333333333331"/>
@@ -168,12 +196,18 @@
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="40"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="."/>
+                                        <connections>
+                                            <action selector="dotButtonPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="vlc-Nj-TSU"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4PX-nb-AcI">
                                         <rect key="frame" x="295" y="482.66666666666657" width="97" height="119.33333333333331"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="="/>
+                                        <connections>
+                                            <action selector="eqSignPress:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eVl-kF-NnN"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
